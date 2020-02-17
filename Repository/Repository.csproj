@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>caneraras@msn.com</Company>
+    <Authors>Caner ARAS</Authors>
+    <PackageProjectUrl>https://github.com/CnrArs/Generic.Repository/</PackageProjectUrl>
+    <PackageTags>generic repository</PackageTags>
+    <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/CnrArs/Generic.Repository</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Had to re-release</PackageReleaseNotes>
+    <AssemblyName>Generic.Repository</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.AutoHistory" Version="2.1.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
